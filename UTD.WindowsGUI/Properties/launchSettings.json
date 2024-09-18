@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UTD.WindowsGUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "UTD.WindowsGUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
