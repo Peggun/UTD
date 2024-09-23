@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using UTD.Core.Interfaces;
+using UTD.Shared;
 
 namespace UTD.Core.Services
 {
@@ -13,7 +14,7 @@ namespace UTD.Core.Services
         public SaveFileService()
         {
             // Set up the Local AppData path for your application
-            _appDataFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "UTD");
+            _appDataFolder = FilePaths.appDataFolder;
 
             // Ensure the directory exists
             if (!Directory.Exists(_appDataFolder))
