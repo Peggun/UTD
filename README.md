@@ -1,7 +1,7 @@
 # UTD (Currently in the making)
-UTD (or Universal Tool for Dependencies) is a tool that manages project dependencies for you! When making a project, managing dependencies can get quite confusing, however this tool makes life just that much easier! 
+UTD (or Universal Tool for Dependencies) is a tool that manages project dependencies for you! When building a project, managing dependencies can get quite confusing, however this tool makes life just that much easier! 
 
-This tool is currently being built, and only supports Windows using WinUI 3 and C# projects. Anyone who would like to help, whether building the GUI of our app, adding support for a different language, or porting our app to different OS' like Mac is welcome. 
+This tool is currently being built, and currently natively supports Windows and Mac using .NET MAUI. Please feel free to add some more UI and features or make this app be able to run on linux machines.
 
 Here are the steps for installation (with maybe some errors).
 
@@ -17,8 +17,7 @@ You can clone the repository using
 git clone https://github.com/Peggun/UTD
 ```
 
-After this, open the solution and make sure (for now) UTD.WindowsGUI is selected.
-![runutd](/resources/runutd.png)
+Open the solution and then select UTD.UI for the startup project.
 
 ## 3. Run
 After this you can run the code, and have fun developing UTD!
